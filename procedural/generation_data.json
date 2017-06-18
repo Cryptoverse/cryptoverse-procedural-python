@@ -1,0 +1,310 @@
+{
+  "galaxies": {
+    "sample": {
+      "odds": 1,
+      "min_stars": 5,
+      "max_stars": 10
+    }
+  },
+  "stars": {
+    "o_star": {
+      "star_type": "Blue-Purple Star",
+      "odds": 5,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "o_super_star": {
+      "star_type": "Blue-Purple Supergiant",
+      "odds": 3,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "o_hyper_star": {
+      "star_type": "Blue-Purple Hypergiant",
+      "odds": 1,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "b_star": {
+      "star_type": "Blue Star",
+      "odds": 80,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "b_super_star": {
+      "star_type": "Blue Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "a_star": {
+      "star_type": "White Star",
+      "odds": 100,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "a_super_star": {
+      "star_type": "White Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "f_star": {
+      "star_type": "Yellow-White Dwarf",
+      "odds": 150,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "f_super_star": {
+      "star_type": "Yellow-White Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "g_star": {
+      "star_type": "Yellow Dwarf",
+      "odds": 300,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "g_giant_star": {
+      "star_type": "Yellow Giant",
+      "odds": 150,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "g_super_star": {
+      "star_type": "Yellow Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "k_star": {
+      "star_type": "Orange Dwarf",
+      "odds": 200,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "k_giant_star": {
+      "star_type": "Orange Giant",
+      "odds": 170,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "k_super_star": {
+      "star_type": "Orange Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "m_star": {
+      "star_type": "Red Dwarf",
+      "odds": 200,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "m_giant_star": {
+      "star_type": "Red Giant",
+      "odds": 130,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "m_super_star": {
+      "star_type": "Red Supergiant",
+      "odds": 2,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "m_hyper_star": {
+      "star_type": "Red Hypergiant",
+      "odds": 1,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "l_star": {
+      "star_type": "Brown Dwarf",
+      "odds": 9,
+      "min_planets": 1,
+      "max_planets": 6
+    },
+    "d_star": {
+      "star_type": "White Dwarf",
+      "odds": 7,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "black_hole": {
+      "star_type": "Black Hole",
+      "odds": 8,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "neutron_star": {
+      "star_type": "Neutron Star",
+      "odds": 4,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "pulsar": {
+      "star_type": "Pulsar",
+      "odds": 4,
+      "min_planets": 1,
+      "max_planets": 4
+    },
+    "gm_star": {
+      "star_type": "Yellow Binary Star",
+      "odds": 200,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "gm_giant_star": {
+      "star_type": "Yellow Binary Giant",
+      "odds": 10,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "c_giant_star": {
+      "star_type": "Carbon Star",
+      "odds": 40,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "s_giant_star": {
+      "star_type": "Zirconium Star",
+      "odds": 40,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "w_azure_star": {
+      "star_type": "Wolf–Rayet Star Azure",
+      "odds": 4,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "w_red_star": {
+      "star_type": "Wolf–Rayet Star Red",
+      "odds": 4,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "w_green_star": {
+      "star_type": "Wolf–Rayet Star Green",
+      "odds": 4,
+      "min_planets": 4,
+      "max_planets": 10
+    },
+    "w_purple_star": {
+      "star_type": "Wolf–Rayet Star Purple",
+      "odds": 4,
+      "min_planets": 4,
+      "max_planets": 10
+    }
+  },
+  "planets": {
+    "desert_planet": {
+      "planet_type": "Desert World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Dry"
+    },
+    "arid_planet": {
+      "planet_type": "Arid World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Dry"
+    },
+    "savannah_planet": {
+      "planet_type": "Savanna World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Dry"
+    },
+    "tropical_planet": {
+      "planet_type": "Tropical World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Wet"
+    },
+    "continental_planet": {
+      "planet_type": "Continental World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Wet"
+    },
+    "ocean_planet": {
+      "planet_type": "Ocean World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Wet"
+    },
+    "tundra_planet": {
+      "planet_type": "Tundra World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Cold"
+    },
+    "arctic_planet": {
+      "planet_type": "Arctic World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Cold"
+    },
+    "alpine_planet": {
+      "planet_type": "Alpine World",
+      "odds": 1,
+      "ring_chance": 0.2,
+      "habitable": true,
+      "climate": "Cold"
+    },
+    "gas_giant": {
+      "planet_type": "Gas Giant",
+      "odds": 6,
+      "ring_chance": 0.6,
+      "habitable": false
+    },
+    "asteroid": {
+      "planet_type": "Asteroid",
+      "odds": 10,
+      "ring_chance": 0,
+      "habitable": false
+    },
+    "molten_planet": {
+      "planet_type": "Molten World",
+      "odds": 10,
+      "ring_chance": 0,
+      "habitable": false
+    },
+    "barren_planet": {
+      "planet_type": "Barren World",
+      "odds": 10,
+      "ring_chance": 0.2,
+      "habitable": false
+    },
+    "cold_barren_planet": {
+      "planet_type": "Cold Barren World",
+      "odds": 10,
+      "ring_chance": 0.2,
+      "habitable": false
+    },
+    "toxic_planet": {
+      "planet_type": "Toxic World",
+      "odds": 10,
+      "ring_chance": 0.2,
+      "habitable": false
+    },
+    "frozen_planet": {
+      "planet_type": "Frozen World",
+      "odds": 10,
+      "ring_chance": 0,
+      "habitable": false
+    }
+  }
+}
